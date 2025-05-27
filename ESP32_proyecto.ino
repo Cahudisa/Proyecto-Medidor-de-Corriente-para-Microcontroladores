@@ -23,7 +23,7 @@ BlynkTimer timer;                   // Temporizador para funciones periódicas
 #define ADCRANGE_1_CONFIG 0x8000    // Configuración para ADCRANGE = 1
 
 // Pines actualizados para ESP32 (seguros para uso general)
-const int modoPin = 27;             // GPIO27 para indicar modo manual/automático
+const int modoPin = 4;             // GPIO4 para indicar modo manual/automático
 const int rangoPin = 14;            // GPIO14 para controlar selección de shunt
 
 int modo = 0;                       // 0 = automático, 1 = manual
